@@ -8069,6 +8069,7 @@ GameObject:
   - component: {fileID: 523570917}
   - component: {fileID: 523570916}
   - component: {fileID: 523570915}
+  - component: {fileID: 523570921}
   m_Layer: 0
   m_Name: Buddy
   m_TagString: Player
@@ -8236,8 +8237,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxSpeed: 10
   jumpForce: 8
-  spriteRenderer: {fileID: 0}
-  animator: {fileID: 0}
+  spriteRenderer: {fileID: 523570920}
+  animator: {fileID: 523570921}
 --- !u!70 &523570917
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -8393,6 +8394,28 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &523570921
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 523570913}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: e9d83aa0d6115dd4e8a5335bee6bf743, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &528375429
 GameObject:
   m_ObjectHideFlags: 0
